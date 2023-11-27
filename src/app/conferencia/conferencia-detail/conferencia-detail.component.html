@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <p class="h3 p-3">{{ conferenciaDetail.name }}</p>
+  <div class="row">
+    <div class="col-2">
+      <div class="thumb">
+
+      </div>
+    </div>
+    <div class="col">
+      <dl>
+        <dt>Starting Date</dt>
+        <dd>{{ conferenciaDetail.starts }}</dd>
+        <hr />
+        <dt>Ending Date</dt>
+        <dd>{{ conferenciaDetail.ends }}</dd>
+        <hr />
+        <dt>Name</dt>
+        <dd>{{ conferenciaDetail.name }}</dd>
+        <hr />
+        <dt class="bold">Description</dt>
+        <dd>{{ conferenciaDetail.description || 'No available information' }}</dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
